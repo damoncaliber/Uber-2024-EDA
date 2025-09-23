@@ -1,4 +1,4 @@
-# Data on the Move: Uber 2024 Exploratory Data Analysis(EDA)
+# Data on the Move: Uber 2024 Exploratory Analysis
 
 ![Uber logo](https://cdn.mos.cms.futurecdn.net/M4hbiWhoo8n3bQQ2hKg5s3-1172-80.jpg.webp)
 
