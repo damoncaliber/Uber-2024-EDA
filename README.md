@@ -34,8 +34,42 @@ The primary objective of this project is to perform an in-depth exploratory data
 6. Jupyter Notebook – Interactive environment for code execution, analysis, and visualization.
 7. Git & GitHub – Version control, project documentation, and public repository hosting.
 
-# Data Dictionary 
+# Data Analysis
 
+### 1. What factors drive the month-to-month variation in Uber bookings, and how does this distribution impact overall annual performance?
+
+![Monthly distribution plot](https://github.com/damoncaliber/Uber-2024-EDA/blob/main/images/Figure1_BPM.png)
+
+As we can see from the graph, Uber’s monthly booking volumes display a clear uneven distribution across the year, with noticeable peaks in January and July—each exceeding roughly 12,800 rides—and dips in   February and September, which hover near 12,000. This pattern indicates that bookings are not evenly spread throughout the year but cluster around specific periods, suggesting that seasonal factors such as holidays, tourism cycles, or regional events likely contribute to the month-to-month variation and, in turn, influence total annual performance.
+
+ Overall Stability:
+ Despite the peaks and dips, monthly bookings remain within a relatively narrow band (roughly 12 000–13 000 rides), showing a steady customer base across the year.
+
+ Dual High Points:
+ The two highest months—January and July—form a roughly six-month cadence, hinting at a semi-annual rhythm in rider activity.
+
+ Quick Rebounds:
+ After each low month (February and September), bookings climb back toward the upper range within one or two months, suggesting that demand recovers quickly after slow periods.
+
+ Balanced Mid-Year Trend:
+ From March through June and again from August through December, the distribution stays close to the yearly average, reflecting a long mid-year stretch of consistent demand.
+
+
+
+### 2. How do daily booking patterns vary across the week, and are there specific weekdays that experience higher or lower ride demand?
+
+![daily distribution plot](https://github.com/damoncaliber/Uber-2024-EDA/blob/main/images/Figure_2_BPD.png)
+
+As we can see from the visual, the distribution of Uber bookings is remarkably consistent across all seven days of the week, with only minor fluctuations of about 5–10 bookings. Saturday shows a slight uptick,   suggesting marginally higher weekend activity, while Thursday appears to be the lowest point, though the difference is minimal. This even spread indicates that demand for rides is steady regardless of weekday, highlighting a stable customer base that is not strongly influenced by typical weekday–weekend cycles.
+
+Low Volatility:
+The range between the highest and lowest daily booking counts is small (roughly a 2–3 % difference), indicating very low variability in demand. This stability suggests that operational resources—such as driver availability—can remain relatively constant throughout the week.
+
+Balanced Weekday vs. Weekend Demand:
+Unlike many transport services that see weekend spikes, the data shows only a slight Saturday lift and virtually no Sunday drop. This pattern points to a customer base that likely uses Uber for both commuting and leisure in roughly equal measure.
+
+Implication for Forecasting:
+Because day-to-day swings are minimal, short-term forecasting models can rely on simpler, steady-state assumptions without needing strong weekday-specific adjustments.
 
 
 
